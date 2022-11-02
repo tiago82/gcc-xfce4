@@ -47,7 +47,7 @@ cat > ~/.vnc/xstartup <<END
 xsetroot -solid grey
 x-terminal-emulator -geometry 80x24+10+10 -ls -title "$VNCDESKTOP Desktop" &
 # x-window-manager &
-gnome-session &
+gnome-session --disable-acceleration-check&
 END
 
 # ##########################################################
