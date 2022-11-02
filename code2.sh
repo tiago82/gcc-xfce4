@@ -11,7 +11,7 @@
 # Post URL: http://www.lowendtalk.com/discussion/1065/how-to-install-vnc-w-gnome-on-debian-vps
 #
 
-apt-get update
+sudo apt-get update
 
 
 # ##########################################################
@@ -42,7 +42,7 @@ tightvncserver -kill :1
 # ##########################################################
 # Edit the xstartup file
 
-        cat > ~/.vnc/xstartup <<END
+cat > ~/.vnc/xstartup <<END
 #!/bin/shxrdb $HOME/.Xresources
 xsetroot -solid grey
 x-terminal-emulator -geometry 80x24+10+10 -ls -title "$VNCDESKTOP Desktop" &
