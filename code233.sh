@@ -17,7 +17,7 @@ sudo apt-get update
 # ##########################################################
 # Install GNOME
 
-sudo apt-get install -y gnome-core
+sudo apt-get install -y gnome
 
 # ##########################################################
 # Install required fonts
