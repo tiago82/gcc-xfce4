@@ -11,28 +11,27 @@
 # Post URL: http://www.lowendtalk.com/discussion/1065/how-to-install-vnc-w-gnome-on-debian-vps
 #
 
-apt-get clean all
 apt-get update
-apt-get upgrade
+
 
 # ##########################################################
 # Install GNOME
 
-apt-get install gnome-desktop-environment
+sudo apt-get install -y gnome-core
 
 # ##########################################################
 # Install required fonts
 
-apt-get install xfonts-100dpi
-apt-get install xfonts-100dpi-transcoded
-apt-get install xfonts-75dpi
-apt-get install xfonts-75dpi-transcoded
-apt-get install xfonts-base
+sudo apt-get install -y xfonts-100dpi
+sudo apt-get install -y xfonts-100dpi-transcoded
+sudo apt-get install -y xfonts-75dpi
+sudo apt-get install -y xfonts-75dpi-transcoded
+sudo apt-get install -y xfonts-base
 
 # ##########################################################
 # Install TightVNCServer and setup VNC password
 
-apt-get install tightvncserver
+sudo apt-get install -y tightvncserver
 tightvncserver :1
 
 # ##########################################################
