@@ -1,6 +1,9 @@
 
 
 
+sudo locale-gen pt_BR.UTF-8
+sudo update-locale
+
 
 sudo apt update
 curl -L -o chrome-remote-desktop_current_amd64.deb \
