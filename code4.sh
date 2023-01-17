@@ -1,8 +1,8 @@
 
 
 
-sudo locale-gen pt_BR.UTF-8
-sudo update-locale
+#sudo locale-gen pt_BR.UTF-8
+#sudo update-locale
 
 
 sudo apt update
