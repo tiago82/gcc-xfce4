@@ -9,9 +9,13 @@ bash <(curl -s https://raw.githubusercontent.com/tiago82/gcc-xfce4/main/code23.s
 
 # XFCE usando Área de trabalho remota do Google Chrome (debian)
 
-cole no terminal SSH:
+1- Crie da instância 
+
+1- va no terminal ssh e cole:
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/tiago82/gcc-xfce4/main/code4.sh)
 ```
-Vá no link a seguir e pegue o comando para colar no ssh:
-https://remotedesktop.google.com/headless?hl=pt-br
+3- Acesse o seguinte link: https://remotedesktop.google.com/headless?hl=pt-br
+Selecione e copie o comando completo e cole no terminal. logo apos digite uma senha 6 digitos
+
+4-Por fim vá em :https://remotedesktop.google.com/access/ e acesse a maquina criada
