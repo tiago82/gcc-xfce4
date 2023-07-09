@@ -18,10 +18,11 @@ sudo apt install --assume-yes ./google-chrome-stable_current_amd64.deb
 
 sudo bash -c 'echo "exec /etc/X11/Xsession /usr/bin/xfce4-session" > /etc/chrome-remote-desktop-session'
 
+sudo systemctl disable lightdm.service
 
 sudo apt install --assume-yes task-xfce-desktop
 
-sudo systemctl disable lightdm.service
+
 
 
  
