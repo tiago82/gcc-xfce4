@@ -8,6 +8,6 @@ bash <(curl -s https://raw.githubusercontent.com/tiago82/gcc-xfce4/main/code23.s
 
 
 XFCE usando Área de trabalho remota do Google Chrome (debian)
-
+```bash
 bash <(curl -s https://raw.githubusercontent.com/tiago82/gcc-xfce4/main/code4.sh)
-
+```
