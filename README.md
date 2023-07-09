@@ -11,7 +11,7 @@ bash <(curl -s https://raw.githubusercontent.com/tiago82/gcc-xfce4/main/code23.s
 
 1- Crie da instância 
 
-1- va no terminal ssh e cole:
+2- va no terminal ssh e cole:
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/tiago82/gcc-xfce4/main/code4.sh)
 ```
